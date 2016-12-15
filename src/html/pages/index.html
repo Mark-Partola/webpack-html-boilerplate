@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document!</title>
+    <link rel="stylesheet" href="./bundle.css">
+</head>
+<body>
+
+    <div class="l-main">
+
+        <div class="l-main__header">
+            <%= require('html!../components/header.html') %>
+        </div>
+
+        <div class="l-main__content">
+
+            <%= require('html!../components/index/content.html') %>
+
+        </div>
+
+        <div class="l-footer">
+            <%= require('html!../components/footer.html') %>
+        </div>
+
+    </div>
+</body>
+</html>

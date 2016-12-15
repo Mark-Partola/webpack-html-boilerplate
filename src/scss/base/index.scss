@@ -1,0 +1,12 @@
+@import './../config/index';
+@import "~normalize.css";
+@import "fonts";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: $layout-height;
+  width: $layout-width;
+}
